@@ -297,6 +297,8 @@ nav{
       font-size: 100%;
      
     }
+
+   
     .icon ul{
       margin-left: 25px;
     }
@@ -392,6 +394,49 @@ nav{
 
      
   }
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .one {
+      font-size: 80%;
+      line-height: 2.2rem;
+    }
+  }
+.portfolio{
+  font-size: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   h1{
     margin-top: 6rem;
@@ -854,7 +899,7 @@ nav{
     padding: 2rem;
     text-align: right;
     transition: transform 0.8s ease ease-in-out;
-    height:50vh;
+    height:80vh;
     text-align: right;
     background-image: url(img/wc.png);
     background-attachment: fixed;
@@ -881,15 +926,16 @@ nav{
     width: 50%;
   } */
   .site{
-    
+    position: relative;
     border-radius: 8px;
     padding: 30px;
     text-align: center;
     border:  1px solid rgba(214, 214, 214, 0.595);
     backdrop-filter: blur(10px);
     background: linear-gradient(120deg,rgba(255, 255, 255, 0.173), transparent,rgba(255, 255, 255, 0.094));
-    margin: 10px;
+    margin:100px 0 50px 0;
     color: #61adff;
+
 
    
     
