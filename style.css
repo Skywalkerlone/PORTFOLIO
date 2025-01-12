@@ -1539,9 +1539,7 @@ transition:  0.15s ease-in-out;
     outline: none;
     font-size: 8px;
 }
-footer {
-  display: grid;
-}
+
 
 
 
@@ -1558,10 +1556,8 @@ footer {
     justify-content: space-between;
     width: 80%;
     font-size: 1rem;
-   gap: 40px;
   }
-  
-  
+ 
   .footer-ul {
     display: grid;
   }
@@ -1636,6 +1632,18 @@ footer {
         font-size: 37%;
       }
       
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      display: grid;
+      gap: 30px;
+  }
+
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50%;}
   }
   
 
