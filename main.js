@@ -121,3 +121,19 @@ labels.forEach((label) => {
               thumbnailContainer.scrollTop = thumbnail.offsetTop - thumbnailContainer.offsetTop;
           };
       });
+
+
+
+      const typedText = document.getElementById('typed-text');
+const textToType = 'Idaewor Samuel.E Providence..';
+let i = 0;
+
+function typeText() {
+  if (i < textToType.length) {
+    typedText.textContent += textToType[i];
+    i++;
+    setTimeout(typeText, 100); // adjust the speed as needed
+  }
+}
+
+typeText();
